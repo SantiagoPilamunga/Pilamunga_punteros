@@ -5,6 +5,10 @@ int main()
     char *m,varChar;
     varChar = 'A';
     m= &varChar;
-    printf("%c %x",varChar,m);
+    printf("%c %x \n",varChar,m);
+    int variableEnt, *num;
+    variableEnt=500;
+    num= &variableEnt;
+    printf("%d %x",variableEnt,num);
     return 0;
 }
